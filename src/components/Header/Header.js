@@ -4,13 +4,15 @@ import SecondBar from './SecondBar'
 import NavBar from './NavBar'
 
 function Header() {
-  return (
-    <>
-        <FirstBar />
-        <SecondBar />
-        <NavBar />
-    </>
-  )
+    return (
+        <>
+            <div className='container-fluid'>
+                <FirstBar />
+                <SecondBar />
+                <NavBar />
+            </div>
+        </>
+    )
 }
 
 export default Header

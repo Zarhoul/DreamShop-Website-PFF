@@ -6,3 +6,8 @@
     --fifth-color: #706E6E;
     --sixth-color: #E4E7ED;
 }
+
+.firstbar {
+    background-color: var(--second-color);
+    color: var(--first-color);
+}
