@@ -1,4 +1,6 @@
 import React from 'react'
+import { HiMail } from "react-icons/hi";
+import { HiPhone, HiMapPin } from "react-icons/hi2";
 import "../../App.css"
 
 function FirstBar() {
@@ -6,9 +8,15 @@ function FirstBar() {
         <>
             <div className="firstbar navbar navbar-expand-lg">
                 <div>
-                    <div>+212 0000-0000</div>
-                    <div>contact@dreamshop.com</div>
-                    <div>Agadir, Maroc</div>
+                    <div>
+                        <HiPhone />+212 0000-0000
+                    </div>
+                    <div>
+                        <HiMail />contact@dreamshop.com
+                    </div>
+                    <div>
+                        <HiMapPin />Agadir, Maroc
+                    </div>
                 </div>
                 <div>|</div>
                 <div>
@@ -16,7 +24,7 @@ function FirstBar() {
                     <button>EN</button>
                 </div>
             </div>
-        </>
+    </>
     )
 }
 
